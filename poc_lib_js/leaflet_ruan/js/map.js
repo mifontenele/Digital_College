@@ -26,7 +26,17 @@ var marker = L.marker([-3.78841, -38.48863],
     { alt: 'Owl Beer Pub' }).addTo(map)
     .bindPopup('Owl Beer Pub, Bar Contemporâneo');
 
-// Marcador - 
+// Marcador - Coco Bambu
 var marker = L.marker([-3.79119, -38.48148],
     { alt: 'Coco Bambu' }).addTo(map)
     .bindPopup('Coco Bambu, Restaurante');
+
+// Marcador - Hospital Unimed
+var marker = L.marker([-3.77040, -38.49036],
+    { alt: 'Unimed' }).addTo(map)
+    .bindPopup('Unimed, Hospita');
+
+// Marcador - Universidade 7 de Setembro
+var marker = L.marker([-3.77127, -38.48371],
+    { alt: 'Unit 7' }).addTo(map)
+    .bindPopup('Unit 7, Universidade 7 de Setembro');
